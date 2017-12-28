@@ -1,0 +1,7 @@
+#!/bin/bash
+
+export OS=`uname`
+export ARCH=`uname -m`
+export PATH=$PATH:"target/$OS-$ARCH/bin"
+
+ermagerd
